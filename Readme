@@ -1,0 +1,10 @@
+Name: Zhixin Pan
+UFID: 35554386
+
+The rpal parser for project1. There is already an excutable program "p1" in this directory. 
+--To generate a new one from the beginning,just type "make cl", and then "make" in terminate. 
+--Several switches for this program:
+	-ast: It will print the AST of given program
+	-l  : It will list all the tokens or items in testing program
+It will show nothing without switches, and we support multiple switches. That is to say	,if we type something like:
+p1 -ast -l /tests/trees, it will not only print the tree, but list all items below.
